@@ -15,7 +15,7 @@ var remainingTickets = 50
 var firstName string
 var lastName string
 var userTickets int
-var email int
+var email string
 
 fmt.Printf("Enter your First Name: \n")
 fmt.Scan(&firstName)
@@ -30,6 +30,6 @@ fmt.Scan(&userTickets)
 fmt.Printf("Enter your email here: \n")
 fmt.Scan(&email)
 
-fmt.Printf("Thank you %v %v for booking %v tickets. You will receive a confirmation in your %v", firstName, lastName, userTickets, email)
+fmt.Printf("Thank you %v %v for booking %v tickets. You will receive a confirmation in your %v \n", firstName, lastName, userTickets, email)
 
 }
