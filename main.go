@@ -30,6 +30,6 @@ fmt.Scan(&userTickets)
 fmt.Printf("Enter your email here: \n")
 fmt.Scan(&email)
 
-fmt.Printf("Thank you %v %v for booking %v tickets. You will receive a confirmation in your %v \n", firstName, lastName, userTickets, email)
+fmt.Printf("Thank you %v %v for booking %v tickets. You will receive a confirmation at %v \n", firstName, lastName, userTickets, email)
 
 }
